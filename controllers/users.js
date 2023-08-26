@@ -1,12 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const { User, Address } = require("../models"); // Assuming your models are imported correctly
+const { User, Address } = require("../models");
 
-// GET all users
 router.get("/", async (req, res) => {
   try {
     const users = await User.findAll({
-      include: Address, // Include the Address model to fetch related address data
+      include: Address,
     });
     res.json(users);
   } catch (error) {
