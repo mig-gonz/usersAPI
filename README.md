@@ -9,17 +9,23 @@ Modern frontend development often requires realistic data to populate user inter
 ## Routes
 
 Fetch All Users
+<br />
 Fetches a list of all users with related address information.
 
 URL: /users
+<br />
 Method: GET
+<br />
 Response Format: JSON
 
 Fetch User by ID
+<br />
 Fetches a specific user with related address information based on their ID.
 
 URL: /users/:id (e.g., /users/1)
+<br />
 Method: GET
+<br />
 Response Format: JSON
 
 ## Tables
