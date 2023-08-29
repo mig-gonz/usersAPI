@@ -4,14 +4,18 @@ const dotenv = require("dotenv");
 dotenv.config();
 const cors = require("cors");
 
+// middleware
+app.use(
+  cors({
+    origin: "http://localhost:3000", // Replace with your frontend's origin
+  })
+);
+app.use(express.json());
 // Import controllers
 const usersController = require("./controllers/users");
 
 // Use the usersController for the /users route
 app.use("/users", usersController);
-
-// middleware
-app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("usersAPI");
