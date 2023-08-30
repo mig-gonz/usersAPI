@@ -7,7 +7,7 @@ const serverless = require("serverless-http");
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://users-api-frontend.vercel.app",
   })
 );
 app.use(express.json());
