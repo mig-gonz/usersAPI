@@ -7,9 +7,10 @@ const serverless = require("serverless-http");
 
 app.use(
   cors({
-    origin: "https://users-api-frontend.vercel.app",
+    origin: "*",
   })
 );
+
 app.use(express.json());
 const usersController = require("./controllers/users");
 
