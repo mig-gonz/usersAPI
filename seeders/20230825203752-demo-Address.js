@@ -83,6 +83,14 @@ module.exports = {
         lat: "37.7749",
         lng: "122.4194",
       },
+      {
+        street: "Stewart Avenue",
+        suite: "Apt. 999",
+        city: "Las Vegas",
+        zipcode: "92998-3874",
+        lat: "-67.3159",
+        lng: "11.1496",
+      },
     ]);
   },
 
