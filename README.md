@@ -10,6 +10,7 @@ Modern frontend development often requires realistic data to populate user inter
 
 Base URL: https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users
 
+#
 Fetch All Users
 <br />
 Fetches a list of all users with related address information.
@@ -20,6 +21,7 @@ Method: GET
 <br />
 Response Format: JSON
 
+#
 Fetch User by ID
 <br />
 Fetches a specific user with related address information based on their ID.
@@ -30,6 +32,7 @@ Method: GET
 <br />
 Response Format: JSON
 
+#
 Delete User by ID
 <br />
 Deletes a user based on their ID.
@@ -40,6 +43,7 @@ Method: DELETE
 <br />
 Response Format: JSON
 
+#
 Update User by ID
 <br />
 Updates user information based on their ID.
