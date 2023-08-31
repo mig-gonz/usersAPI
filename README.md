@@ -2,6 +2,9 @@
 
 The `usersAPI` is a specialized API designed to provide mock user data for developers seeking object-oriented information to use as placeholder content in their frontend applications.
 
+To view a demo of usersAPI visit: [users-api-frontend](https://users-api-frontend.vercel.app/) and
+[Repo](https://github.com/mig-gonz/usersAPIFrontend) 
+
 ## Purpose
 
 Modern frontend development often requires realistic data to populate user interfaces during the development and testing phases. Creating such data manually can be time-consuming and repetitive. The `usersAPI` aims to alleviate this challenge by offering a curated collection of mock user information.
