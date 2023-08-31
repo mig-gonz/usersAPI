@@ -10,7 +10,6 @@ Modern frontend development often requires realistic data to populate user inter
 
 Base URL: https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users
 
-#
 Fetch All Users
 <br />
 Fetches a list of all users with related address information.
