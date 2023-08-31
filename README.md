@@ -30,6 +30,10 @@ Method: GET
 <br />
 Response Format: JSON
 
+Delete User by ID
+<br />
+Deletes a user based on their ID.
+
 URL: [/users](https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users/1) (e.g., /users/1)
 <br />
 Method: DELETE
