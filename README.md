@@ -8,11 +8,13 @@ Modern frontend development often requires realistic data to populate user inter
 
 ## Routes
 
+Base URL: https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users
+
 Fetch All Users
 <br />
 Fetches a list of all users with related address information.
 
-URL: /users
+URL:[/users](https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users)
 <br />
 Method: GET
 <br />
@@ -22,7 +24,7 @@ Fetch User by ID
 <br />
 Fetches a specific user with related address information based on their ID.
 
-URL: /users/:id (e.g., /users/1)
+URL: [/users](https://9tv4edek55.execute-api.us-east-1.amazonaws.com/prod/users/1) (e.g., /users/1)
 <br />
 Method: GET
 <br />
